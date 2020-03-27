@@ -7,19 +7,19 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-	<h2>Médiathèque JavaScript</h2>
+	<h2>Médiathèque</h2>
 	<div id="enregistrements">
 		<div id="ajoutAdherent">
 			<fieldset>
 				<legend>nouvel adhérent</legend>
-				<input type="text" id="nomAdherent" placeholder="nom...">
+				<input type="text" id="nomAdherent" placeholder="nom..." required>
 				<input type="button" id="ajouterAdherent" value="ajouter">
 			</fieldset>
 		</div>
 		<div id="ajoutLivre">
 			<fieldset>
 				<legend>nouveau livre</legend>
-				<input type="text" id="titreLivre" placeholder="titre...">
+				<input type="text" id="titreLivre" placeholder="titre..." required>
 				<input type="button" id="ajouterLivre" value="ajouter">
 			</fieldset>
 		</div>
@@ -44,5 +44,7 @@
 			</fieldset>
 		</div>
 	</div>
+
+	<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
